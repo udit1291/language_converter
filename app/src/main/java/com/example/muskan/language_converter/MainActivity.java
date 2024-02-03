@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 if(status==TextToSpeech.SUCCESS){
                     int result=mtts.setLanguage(Locale.ENGLISH);
                     if(result==TextToSpeech.LANG_MISSING_DATA || result==TextToSpeech.LANG_NOT_SUPPORTED) {
-//                        Toast.makeText(this,"TTS",Toast.LENGTH_SHORT).show();123
+//                        Toast.makeText(this,"TTS",Toast.LENGTH_SHORT).show();123456
                     }else{
                         btn3.setEnabled(true);
                     }
